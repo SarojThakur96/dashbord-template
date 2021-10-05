@@ -1,0 +1,29 @@
+header {
+    background-color: #0f1626;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1,h3 {
+    color: #66FCF1;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  .header{
+    display: flex;
+     /* flex: 1; */
+     /* position: sticky; */
+    justify-content: space-between;
+  }
+  .header__right {
+    display: flex;
+  }
+  .header__right >h3{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .header__right >Button{
+    margin-left: 10px;
+  }
